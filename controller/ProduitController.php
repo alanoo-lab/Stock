@@ -20,6 +20,6 @@ class ProduitController {
     }
 
     public function createProduit(): Produit {
-        return new Produit(40, 20, 5);
+        return new Produit(33, 'test', 20, 10, 'XL', 'ROUGE', 1000);
     }
 }
